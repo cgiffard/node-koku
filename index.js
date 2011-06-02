@@ -39,9 +39,9 @@ function getWithJSON(script,callback,arguments) {
 	};
 	
 	if (arguments) {
-		applescript.execFile(script,arguments,execCallback);
+		applescript.execFile(require.resolve("./"+script),arguments,execCallback);
 	} else {
-		applescript.execFile(script,execCallback);
+		applescript.execFile(require.resolve("./"+script),execCallback);
 	}
 }
 

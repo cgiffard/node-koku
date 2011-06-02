@@ -1,7 +1,7 @@
 {
 	"name":			"koku",
 	"description":	"Node.js bindings for the Mac finance app Koku",
-	"version":		"0.1.0",
+	"version":		"0.1.1",
 	"author":		"Christopher Giffard <christopher.giffard@cgiffard.com>",
 	"repository":	{
 		"type":	"git",
