@@ -5,6 +5,12 @@ This simple module uses [node-applescript](https://github.com/TooTallNate/node-a
 
 ## Usage
 
+First of all:
+
+	npm install koku
+
+Then:
+
 ```javascript
 var Koku = require("koku");
 var kokuInstance = new Koku(); // Asynchronous
