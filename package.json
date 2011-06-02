@@ -1,0 +1,23 @@
+{
+	"name":			"koku",
+	"description":	"Node.js bindings for the Mac finance app Koku",
+	"version":		"0.1",
+	"author":		"Christopher Giffard <christopher.giffard@cgiffard.com>",
+	"repository":	{
+		"type":	"git",
+		"url":	"http://github.com/cgiffard/node-koku.git"
+	},
+	"bugs":			{
+		"web":	"https://github.com/cgiffard/node-koku/issues"
+	},
+	"os":			"darwin",
+	"main":			"./index.js",
+	"files":		[
+		"./getaccounts.applescript",
+		"./getdocuments.applescript",
+		"./gettags.applescript",
+		"./gettransactions.applescript"
+	],
+	"engines":		{ "node" : ">=0.4.0" },
+	"dependencies":	{"applescript": ""}
+}
